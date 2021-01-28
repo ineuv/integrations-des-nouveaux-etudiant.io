@@ -1,0 +1,181 @@
+ @font-face{
+    font-family:'ambleregular';
+    src: url('polices/Amble-Regular-webfont.eot');
+    src: url('polices/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/Amble-Regular-webfont.woff2') format('woff2'),
+         url('polices/Amble-Regular-webfont.woff') format('woff'),
+         url('polices/Amble-Regular-webfont.ttf') format('truetype'),
+         url('polices/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+           }
+ /*--------------------------entete de la page--------------------*/
+ #un img{
+           width: 200px;
+           height: 180px;
+         }
+/*les élément de la page*/
+ body
+ {  
+ 	background-image: url("fond.jpg");
+ 	color:black;
+  box-sizing: border-box;
+ 	font-family: Arial,verdana,sans cerif;
+ 	background-repeat:no-repeat;
+ 	background-size: 200% 200%;
+ 	background-color:white;
+ 	height: 700px;
+ 	background-attachment:fixed;
+ 	background-position:right top;
+  }
+/*-----------------------------menu principal---------------------*/
+  #nav {
+    margin: 0;padding: 2px 2px 0;background:orange repeat-x 0 30px;line-height: 100%;
+    border-radius: 2em;
+    box-shadow: 0 1px 3px ;
+    display: inline-block;
+    position: absolute;
+    top: 180px;
+    left: 280px;
+    text-align: center;
+  }
+#nav li 
+{
+  margin:0 5px;padding:0 0 2px;float: left;position: relative;list-style: none;
+}
+#nav a {
+    font-weight: bold;color:black;text-decoration: none;display: block;padding:  8px 20px;margin: 0;
+    font-size:18px;border-radius: 1.6em; text-shadow: 0 1px 1px;}
+#nav a{
+  background:#E5E8E8 no-repeat 0 -40px;color:black;border-top: solid 1px orange;
+  box-shadow: 0 1px 1px ;text-shadow: 0 1px 0 ;}
+#nav li  :hover 
+{
+    background: pink;
+    border-radius: 10px;
+    color:black;
+    border-top: solid 1px pink;
+    box-shadow: 0 1px 1px ; 
+    text-shadow: 0 1px 0 ;
+  }
+#nav li ul  
+ {
+  display:none;
+}
+#nav li:hover ul 
+{
+   display: block;
+}
+#nav ul {
+  display:block;
+  margin: 0;padding: 0;width: 185px;
+  position:absolute;
+  top: 35px;
+  left: 35px;
+  background: orange repeat-x 0 0;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px ;  
+}
+
+#nav ul li
+ {
+  float: none;margin:0;padding: 0;
+ }
+ 
+section h1 
+    {  
+       font-style:normal;
+       text-align: center;
+	     color:red;
+       font-size: 2.3em;
+       text-decoration: underline;
+    }
+ article
+ {  
+    font-family:courier; 
+ 	font-weight: none;
+ 	font-size:small;
+ 	text-align:left;
+ 	text-shadow: 02px 02px 5px white;
+ }
+ aside
+ {
+ 	flex: 1.6;
+ 	position: relative;
+ 	font-weight: bold;
+ }
+p
+ {  font-size: x-large; 
+ 	text-align: center;
+ 	font-family:,impact,arial,"arial black",verdana,georgia,courier new,sans cerif;
+ }
+ header
+ {
+ 	  display: flex;
+ 	  align-items: flex-end;
+    color:black;
+    font-weight:bold;
+ }
+ header h1
+ {
+ 	 font-family: 'ambleregular',Arial,verdana,sans cerif;
+ 	 color: red;
+ 	 font-size: 2.3em;
+ 	 font-weight:bold;
+ 	 text-align: center;
+ }
+ header h3
+ {
+  font-weight: bold;
+  text-align: center;
+ }
+
+ /*----------le pied de page-----------*/
+#quatre
+{
+  display:flex;
+  height:200px;
+  align-items:flex-end;
+}
+footer
+{
+  background:linear-gradient( to top ,azure,orange);
+  margin-top:85px;
+  height:400px;
+}
+.deux{
+  font-size:34px;
+  font-family:'impact';
+  text-decoration: underline;
+}
+#djene img{
+  border-radius:500%;}
+#shali img{
+  border-radius:500%;
+}
+#shali{
+  margin-left:100px;
+}
+.nom{
+  font-size:30px;
+  font-family:'serif';
+  font-weight:bold;
+  text-shadow: 10px 5px 20px #777;
+  color:white;
+}
+.pro{
+  font-family:'impact';
+  font-size:17px;
+}
+
+.trois{
+  border-radius:90%
+}
+#trois{
+  height:150px;
+}
+#trois a{
+  font-family:courier;
+  text-decoration:none;
+  color:black;
+}
